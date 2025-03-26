@@ -74,6 +74,18 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -134,6 +146,31 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+#participants-list {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#participants-list h4 {
+  margin-bottom: 10px;
+  color: #1a237e;
+}
+
+#participants-list ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+#participants-list ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
 }
 
 footer {
